@@ -1,0 +1,29 @@
+---
+title: "제목"
+author: "작성자 이름"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    latex_engine: xelatex
+    keep_tex: true
+mainfont: TeX Gyre Termes        # 영문
+CJKmainfont: Noto Serif KR       # 한글 본문
+CJKsansfont: Noto Sans KR        # 강조/산세리프
+header-includes:
+  - \usepackage{bbm}
+  - \usepackage{comment}
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 서론
+
+가나다라마바사 에헤이 R language can beat everything (Shin et al.)
+
+```{r}
+a=1
+print("For test , \ 테스트용, ")
+print(a)
+
+```
