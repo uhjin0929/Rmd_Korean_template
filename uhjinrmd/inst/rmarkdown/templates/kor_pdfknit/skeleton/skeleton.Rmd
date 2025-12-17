@@ -6,7 +6,7 @@ output:
   pdf_document:
     latex_engine: xelatex
     keep_tex: true
-mainfont: TeX Gyre Termes        # 영문
+# mainfont: TeX Gyre Termes        # 영문, 일단 미사용
 CJKmainfont: Noto Serif KR       # 한글 본문
 CJKsansfont: Noto Sans KR        # 강조/산세리프
 header-includes:
@@ -27,3 +27,4 @@ print("For test , \ 테스트용, ")
 print(a)
 
 ```
+
